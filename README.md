@@ -1,3 +1,4 @@
-Task-1 ---> a Simple Python program that, takes two numbers as input from the user then performs the basic mathematical operations of the given two numbers (Addition, Subtraction, Multiplication and Division) at last it Displays the results of each and every operation on the screen.
+Task-2.1 ---> a Python program that takes an integer input from the user then checks whether the number is even or odd using an if-else statement and finally displays the result.
 
-Task 2 ---> a Python program that takes a user's first name and last name as input then concatenates the first name and last name into a full name and at last prints a personalized greeting message using the full name.
+
+Task 2.2 --->a Python program that uses a for loop to iterate over numbers from 1 to 50 then calculates the sum of all integers in this range and finally Displays the final sum.
