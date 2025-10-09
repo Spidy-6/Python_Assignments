@@ -1,5 +1,6 @@
-Sum = 0
-for i in range(1, 51):
-    Sum += i
-print(f"\nThe sum of all the integers from 1 to 50 is: {Sum}")
-print("\n\t Thank You! \t")
+from math import *
+
+num = int(input("Enter a number: "))
+print(f"Square root of {num} is : {sqrt(num)}")
+print(f"Natural logarithm of {num} is : {log(num)}")
+print(f"Square root of {num} is : {sin(num)}")

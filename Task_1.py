@@ -1,12 +1,10 @@
-num = int(input("Enter an integer number: "))
-if num % 2 != 0:
-    print(f"{num} is an odd number")
-else:
-    print(f"{num} is an even number")
-print("Thank You!")
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return n * factorial(n-1)
 
-# which line is better? -->
-# num = int(input("Enter an integer number:"))
-# OR,
-# num = input("Enter an integer number: ")
-# Please state in the feedback
+num = int(input("Enter a number: "))
+result = factorial(num)
+print(f"The factorial of {num} = {result}")
+print("Thank You!")
