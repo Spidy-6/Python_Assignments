@@ -1,5 +1,5 @@
-firstName = input("Enter your First Name: ")
-lastName = input("Enter your Second Name: ")
-fullName = firstName + " " + lastName + "!"
-
-print("Hey", fullName, "I hope you're loving my code :)")
+Sum = 0
+for i in range(1, 51):
+    Sum += i
+print(f"\nThe sum of all the integers from 1 to 50 is: {Sum}")
+print("\n\t Thank You! \t")
