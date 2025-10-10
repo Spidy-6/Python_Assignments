@@ -1,9 +1,15 @@
-try:
-    file1 = open('Sample.txt', 'r')
-except FileNotFoundError:
-    print("Error: The file was not found.")
-else:
-    fileline1 = file1.readline()
-    fileline2 = file1.readline()
-    print(f"Reading file content...\nLine 1: {fileline1}Line 2: {fileline2}")
-    file1.close()
+def result (x):
+    mydict = {
+        "Alice" : 95,
+        "Bhupen" : 96,
+        "Aman" : 87,
+        "John" : 75,
+        "Jasmine" : 89
+    }
+    if x in mydict:
+        print(f"{x}'s marks: {mydict[x]}")
+    else:
+        print(f"Student name {x} not found.")
+
+name = input("Enter a student name: ")
+result(name)
